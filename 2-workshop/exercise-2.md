@@ -52,7 +52,13 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+let sentense = "Hello word!"
+if (sentence.includes("hello")) {
+    console.log("Sentence does contain the word 'Hello'");
+} else {
+console.log("Sentence DOES contain the word 'Hello'");
+}
+
 
 ```
 
@@ -65,8 +71,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const third = 0;
 
 ```
-// Your solution here!
-
+const array = [[1, [2, 3]]];
+const first = 0;
+const second = 1;
+const third = 0;
+console.log(array[first][second][third]);
 ```
 
 ## Question 3: Log all numbers from 10 to 5
@@ -79,7 +88,14 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. }
 
 ```
-// Your solution here!
+let min = 5;
+let currentNum = 10;
+while (currentNum > min) {
+currentNum = currentNum - 1; 
+
+console.log(currentNum);
+}
+
 
 ```
 
@@ -94,7 +110,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. const reversedString = reversedArray.join('');
 
 ```
-// Your solution here!
+
+const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+const reversedString = reversedArray.join('');
+
+ if (reversedString.includes('treasure')) {
+const letterArray = encodedMessage.split('');
+const reversedArray = letterArray.reverse();
+ console.log('Your message:', reversedString);    
+ }
 
 ```
 
@@ -109,7 +133,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. }
 
 ```
-// Your solution here!
+let count = 10;
+let total = 0; 
+while (count > 0) { 
+count = count - 1;
+total = total + count;
+ }
+console.log('The total is:', total);
 
 ```
 
@@ -126,6 +156,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 9. }
 
 ```
-// Your solution here!
+let array = [1, 3, 7, 4, 5, 2, 1];
+
+for (let i = 0; i < array.length; i++) {
+let numberToSearchFor = 5;
+let item = array[i];
+if (item === numberToSearchFor) {
+let includsNeumber;
+ console.log('Array includes the number!')
+}
+}
 
 ```
