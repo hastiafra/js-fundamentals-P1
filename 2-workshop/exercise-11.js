@@ -15,6 +15,26 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+   
+  
+  for(let i=0; i< 8; i++){
+   let line ="";
+   for (let j =0; j<8 ; j++ ){
+     if ((i+j)%2==0) {
+      line +="#";
+     }
+     else {
+      line += "_"; 
+     }
+   }
+   console.log (line);
+  }
+  
+
+
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
